@@ -1,0 +1,33 @@
+{
+  "name": "contact-backend",
+  "version": "1.0.0",
+  "description": "Working with react and context api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegeek91/contact-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codegeek91/contact-backend/issues"
+  },
+  "homepage": "https://github.com/codegeek91/contact-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.1",
+    "nodemon": "^2.0.2"
+  }
+}
