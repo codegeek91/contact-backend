@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb://contacts:contactspass@157.245.125.105:27017/contactkeeper"
+  "mongoURI": "mongodb://contacts:contactspass@157.245.125.105:27017/contactkeeper",
+  "jwtSecret": "secret"
 }
